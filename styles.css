@@ -1,0 +1,70 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin:0;
+  pedding:0;
+  font-family: sans-serif;
+  background-color: #FAF8DA;
+  font-size: 5em;
+  text-decoration: none;
+
+
+}
+
+.card {
+max-width: 600px;
+margin: 10px;
+padding: 50px;
+border-bottom: 3px solid grey;
+border-radius: 5px;
+background-color: orange;
+}
+
+.content {
+   display: flex;
+ flex-flow: row;
+ margin: 0 auto;
+ justify-content: space-around;
+}
+
+.nav {
+  list-style-type: none;
+}
+
+.tag  {
+  background-color: cyan;
+    border: 2px solid #000;
+    padding-right: 50px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.read {
+  text-align: left;
+  font-size: 3em;
+
+}
+
+.bs {
+  background-color: black;
+  text-align: center;
+}
+
+.ts {
+  text-align: center;
+  color: white;
+}
+
+.bt {
+  text-align: center;
+  font-size: 8em;
+}
+
+footer {
+  text-align: center;
+  padding: 60px;
+}
